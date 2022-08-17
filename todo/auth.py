@@ -89,6 +89,7 @@ def load_logged_in_user():
         )
         g.user=c.fetchone()
 #funcion decoradora recibe la misma funcion que estamos decorando, indica que es una funcioon de vista llamda view
+#Se actualiza un comentario.
 def login_required(view):
     @functools.wraps(view)
     def wrapped_view(**Kwargs):
