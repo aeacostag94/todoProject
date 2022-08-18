@@ -1,0 +1,5 @@
+venv/pyvenv.cfg
+venv/Lib/site-packages/_mysql_connector.cp310-win_amd64.pyd
+venv/Lib/site-packages/autopep8.py
+venv/Lib/site-packages/_mysqlxpb.cp310-win_amd64.pyd
+venv/
